@@ -6,7 +6,7 @@ A simple webpack typescript starter for frontend developers
 
 ```shell
 npm i -g @semo/cli
-semo run create --with project-templates -- <YOUR_PROJECT_NAME> --template=webpack-typescript-starter
+semo run --force --with project-templates -- create --template=webpack-typescript-starter <YOUR_PROJECT_NAME>
 cd <YOUR_PROJECT_NAME>
 npm install
     npm start
